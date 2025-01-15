@@ -15,6 +15,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Acme';
 }
 
 body {
@@ -29,7 +30,7 @@ body {
 
 div {
     border: 2px solid white;
-
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,42 +39,46 @@ div {
 
 .main {
     /* margin-top: 40px; */
-    /* border: unset; */
+    border: unset;
     max-width: 600px;
     width: 80%;
-    height: 400px;
+    max-height: 500px;
     padding: 0;
 
-    font-family: 'Poppins';
 }
 
 .converter {
     width: 95%;
     height: 60%;
     padding: 10px 0;
+    margin: 10px 0;
 }
 
 p {
-    font-family: 'Acme';
     font-size: 30px;
     margin: 30px;
 }
 
 .output {
+    max-width: 95%;
     width: 95%;
     height: 20%;
     margin: 10px;
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
 }
 
 label {
-    font-family: 'Acme';
     font-size: 25px;
 }
 
 input,
 button {
     width: 80%;
-    height: 30%;
+    height: 60px;
+    border-radius: 5px;
     /* border: none; */
     margin: 10px;
     font-size: 25px;
@@ -91,4 +96,13 @@ button {
     color: hsl(219, 70%, 14%);
     border: 1px solid hsl(219, 70%, 14%);
     background-color: hsl(43, 95%, 50%);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(43, 95%, 60%);
+}
+
+button:active {
+    background-color: hsl(43, 95%, 40%);
 }
