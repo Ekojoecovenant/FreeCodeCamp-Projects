@@ -14,13 +14,14 @@ function start(main) {
       output.innerText = "Error: Input a number less than or equal to 3999";
     } else if (converted === "CTR1") {
       error(output);
-      output.innerText = "Error: Input a number greather than or equal to 1";
+      output.innerText = "Error: Input a number greater than or equal to 1";
     } else {
       noError(output);
       output.innerText = `${converted}`;
     }
   }
 }
+
 function convertToRoman(num) {
   if (num >= 1 && num <= 3999) {
     let romanNum = "";

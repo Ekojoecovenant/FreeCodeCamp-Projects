@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: hsl(219, 70%, 24%);
+    background-color: hsl(219, 70%, 18%);
     color: white;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ div {
     border: unset;
     max-width: 600px;
     width: 80%;
-    max-height: 500px;
+    max-height: 600px;
     padding: 0;
 
 }
@@ -55,8 +55,15 @@ div {
 }
 
 p {
-    font-size: 30px;
-    margin: 30px;
+    font-size: 25px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.author {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .output {
@@ -86,7 +93,7 @@ button {
 
 input {
     border: 1px solid white;
-    background-color: hsl(219, 70%, 14%);
+    background-color: hsl(219, 70%, 10%);
     color: white;
     box-sizing: border-box;
     padding-left: 10px;
