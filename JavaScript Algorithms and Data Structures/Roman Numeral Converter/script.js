@@ -1,4 +1,4 @@
-function start(main) {
+function start() {
   let enteredNum = document.getElementById("number").value;
   let output = document.getElementById("output");
 
